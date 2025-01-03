@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт-визитка</title>    
+    <title>Portfolio</title>    
     @vite('resources/css/app.css')
 </head>
 <body class="bg-base-200">
@@ -27,7 +27,7 @@
         {{ $slot }}
     </main>
     <footer class="footer footer-center p-10 bg-base-300 text-base-content">
-        <div class="text-center">© 2024. Все права защищены.</div>
+        <div class="text-center">© <?php echo date('Y'); ?>. All rights reserved.</div>
     </footer>
 </body>
 </html>
